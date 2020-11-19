@@ -30,5 +30,5 @@ cmake .. && make
 ### 4.实验结果
 |原图|结果图|
 |----|----|
-|!(https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/data/pexels-photo-266037.jpg)|!(https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/res/res.jpg)|
-|!(https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/data/timg.jpg)|!(https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/res/timg.jpg)|
+|![](https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/data/pexels-photo-266037.jpg)|![](https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/res/res.jpg)|
+|![](https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/data/timg.jpg)|![](https://github.com/runrunrun1994/Person_Segmentation/blob/main/Libtorch_PersonSegmentation/res/timg.jpg)|
