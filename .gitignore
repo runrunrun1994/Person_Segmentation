@@ -1,0 +1,4 @@
+.vscode
+**/build/*
+**/model/*
+**/third_party/*
