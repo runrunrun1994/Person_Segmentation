@@ -250,6 +250,8 @@ namespace Model{
     }
 
     PersonSegmentation::~PersonSegmentation(){
-        
+        freeHostAndDevice();
+        CHECK(cudaEventDestroy(mCudaEvent));
+        CHECK(cudaStreamDestroy(mCudaStream));
     }
 }
