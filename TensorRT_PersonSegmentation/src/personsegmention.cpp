@@ -250,6 +250,6 @@ namespace Model{
     }
 
     PersonSegmentation::~PersonSegmentation(){
-
+        
     }
 }
