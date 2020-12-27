@@ -20,10 +20,15 @@
 - 数据分布、及组成**待补充**
 - 速度对比**待补充**
 
+|Original|Result|
+|---|---|
+|[org1](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/pexels-photo-880474.jpg)|[res1](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/pexels-photo-880474.png)|
+|[org2](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/timg.jpg)|[res2](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/timg.png)|  
+
 ### 3.引用
 [1] [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1802.02611.pdf)  
-[2] [Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation](https://arxiv.org/abs/1801.04381)
-[3] [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)
-[4] [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch)
-[5] [https://github.com/NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
+[2] [Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation](https://arxiv.org/abs/1801.04381)  
+[3] [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)  
+[4] [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch)  
+[5] [https://github.com/NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)  
 **其他引用待补充**
