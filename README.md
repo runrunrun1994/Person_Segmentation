@@ -22,8 +22,8 @@
 
 |Original|Result|
 |---|---|
-|[org1](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/pexels-photo-880474.jpg)|[res1](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/pexels-photo-880474.png)|
-|[org2](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/timg.jpg)|[res2](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/timg.png)|  
+|![org1](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/pexels-photo-880474.jpg)|![res1](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/pexels-photo-880474.png)|
+|![org2](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/timg.jpg)|![res2](https://github.com/runrunrun1994/Image/blob/main/PersonSegmeantation/timg.png)|  
 
 ### 3.引用
 [1] [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1802.02611.pdf)  
