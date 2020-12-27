@@ -10,3 +10,10 @@
 |Mobilenetv2_0.5|0.966|0.933|0.944|0.922|
 |Mobilenetv2_0.35|0.961|0.922|0.935|0.909|
 |Mobilenetv2_0.25|0.955|0.911|0.926|0.896|
+
+|Backbone|Params|FLOPS|
+|---|---|---|
+|Mobilenetv2_1.0|5.794M|23.260G|
+|Mobilenetv2_0.5|3.282M|20.597G|
+|Mobilenetv2_0.35|2.697M|19.993G|
+|Mobilenetv2_0.25|2.344M|19.632G|
