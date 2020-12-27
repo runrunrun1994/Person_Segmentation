@@ -5,6 +5,7 @@
 
 ### 2.实验结果
 |Backbone|Pixel Accuracy|Mean_IoU|Background IoU |Person IoU|
+|---|---|---|---|---|
 |Mobilenetv2_1.0|0.971|0.943|0.953|0.933|
 |Mobilenetv2_0.5|0.966|0.933|0.944|0.922|
 |Mobilenetv2_0.35|0.961|0.922|0.935|0.909|
