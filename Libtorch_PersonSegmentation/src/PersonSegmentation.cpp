@@ -27,6 +27,8 @@ bool PersonSegmentation::InitModel(PTModelParam pparams)
         return false;
     }
 
+    std::cout << mtParam.modelPath<< std::endl;
+
     try{
         mpPersonSegModel = std::make_shared<torch::jit::script::Module>(torch::jit::load((mtParam.modelPath).c_str()));
     }

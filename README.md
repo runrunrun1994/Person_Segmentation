@@ -2,6 +2,7 @@
 - Libtorch_PersonSegmentation Libtorch实现代码
 - Ncnn_PersonSegmentation     ncnn实现代码
 - TensorRT_PersonSegmentation TensorRT实现代码
+- **ncnn andorid**:[https://github.com/runrunrun1994/ncnn-android-deeplabv3plus](https://github.com/runrunrun1994/ncnn-android-deeplabv3plus)
 
 ### 2.实验结果
 |Backbone|Pixel Accuracy|Mean_IoU|Background IoU |Person IoU|

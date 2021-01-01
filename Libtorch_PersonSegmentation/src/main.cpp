@@ -3,6 +3,7 @@
 #include "PersonSegmentation.h"
 #include <opencv2/opencv.hpp>
 #include <cuda_runtime.h>
+#include <sys/time.h>
 
 
 int main(int argc, char* argv[])
@@ -27,13 +28,31 @@ int main(int argc, char* argv[])
         LOG_ERROR("The model loading failed!");
     }
     cv::Mat image = cv::imread(argv[2]);
+    cv::resize(image, image, cv::Size(480, 480));
 
     if (image.empty())
     {
         LOG_ERROR("The image read failed!");
     }
-    
-    torch::Tensor output = ptPersonSeg.Forward(image);
+
+    struct timeval tp;
+    struct timeval tp1;
+    int start;
+    int end;
+
+    torch::Tensor output;
+    gettimeofday(&tp, NULL);
+    start = tp.tv_sec*1000 + tp.tv_usec/1000;
+
+    for (int i = 0; i <1000; ++i)
+    {
+        output = ptPersonSeg.Forward(image);
+    }
+
+    gettimeofday(&tp1, NULL);
+    end = tp1.tv_sec * 1000 + tp1.tv_usec/1000;
+
+    std::cout << (end -start) / 1000 << std::endl;
 
     if (output.numel() < image.rows*image.cols)
     {

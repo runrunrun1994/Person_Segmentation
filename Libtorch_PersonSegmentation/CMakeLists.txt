@@ -1,7 +1,7 @@
 project(PERSON)
 cmake_minimum_required(VERSION 3.5)
 
-add_definitions(-DDEBUG)
+#add_definitions(-DDEBUG)
 add_definitions(-g)
 
 
